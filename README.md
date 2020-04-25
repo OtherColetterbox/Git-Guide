@@ -1,4 +1,5 @@
 # Guide to using Git/GitHub and (hopefully) not breaking anything!*
+## [Link to original version from the rabbit project.](https://github.com/Coletterbox/RabbitProject/blob/master/gitGuide.md)
 ## \*I didn't choose this phrasing. You won't break anything! Version control is your friend.
 
 ----
