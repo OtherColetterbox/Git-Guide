@@ -108,6 +108,11 @@
   ```
   git reset [file name]
   ```
+* "I've started a project on IntelliJ, created a repo on GitHub, remembered to add the origin, set the branch to track the correct branch... anyway, it says "fatal: refusing to merge unrelated histories" when I try to merge."
+  * Git doesn't like that the two repos have different commit histories. If you're sure that it's basically just that your local version has the project while the remote repo just has the files you initialised it with (a .gitignore, a README.md, a license etc.), then you can reassure it (i.e. tell it to shut up) with the following:
+  ```
+  git pull origin master --allow-unrelated-histories
+  ```
 * "Where did \[person\] go?!"
   * They're probably peeing, but try sending another message in all caps this time.
 
