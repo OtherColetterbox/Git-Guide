@@ -11,10 +11,10 @@
 ----
 
 ### Contents
-#### [Section 1: Cloning and pushing to an existing repo](#section-1-a-brief-walkthrough-of-a-sequence-of-events)
+#### [Section 1: Cloning and pushing to an existing repo](#section-1-cloning-and-pushing-to-an-existing-repo-1)
 #### [Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub](#section-2-creating-a-project-in-intellij-or-other-and-pushing-it-to-github-1)
 #### [Section 3: Help! :'( (And FAQ)](#section-3-help--and-faq-1)
-#### [Section 4: Common problems people have encountered on this project so far](#section-4-common-problems-people-have-encountered-on-this-project-so-far-1)
+#### [Section 4: Common problems people have encountered on this project so far](#section-4-common-problems-people-have-encountered-on-the-projects-so-far)
 
 ----
 
@@ -106,6 +106,8 @@ The default commit message to merge the changes is fine. Use the arrows to get t
   ```
   git push origin master
   ```
+  
+![](https://media.giphy.com/media/wtlo7Hr4YIbQs/giphy.gif)
 
 ----
 
@@ -161,3 +163,5 @@ The default commit message to merge the changes is fine. Use the arrows to get t
 * Sometimes it's really easy to miss that the command line is telling you that it has run into a problem. The text will be calm and white, but it will (for example) be telling you that the merge you just attempted actually failed, so when you next start the process of adding and committing, it will tell you that a whole bunch of files have changed, and you won't know why. Or you'll end up in a situation where you'll be very convinced that you have the latest version of the project, when you actually don't. That's why we have to be super careful about reading what the terminal says! :)
 * Regarding .iml files, we just need to decide (at the beginning) whether or not they go in the .gitignore and be consistent about it. In general, if it says you've made changes to a file (and the terminal's complaining about potentially overwriting it) but you don't see any (using git diff) and you're sure you didn't actually change it, just stash the changes or something; no one cares. It'll be fine.
 * Sometimes people have been very confused about why they don't seem to have the whole project, when they've only pulled one branch. "git pull origin \[branch name\]" will only pull the specified branch.
+
+![](https://github.com/Coletterbox/Git-Guide/blob/master/git%20doesn't%20break%20things.jpg?raw=true)
