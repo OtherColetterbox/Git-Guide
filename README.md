@@ -79,7 +79,7 @@
 #### Sometimes you'll want to create the project in IntelliJ and set up Maven etc. instead of starting from something that's cloned from GitHub. This also applies to situations where you've started on a project and only decide to push it to GitHub later (no judgement, I promise).
 
 1. Create a project in IntelliJ; set up Maven, etc.
-2. Create the repo on GitHub. If it's your first time doing this, I recommend initialising the project without a readme, gitignore or license (so that the version on GitHub is empty) to avoid extra steps.
+2. Create the repo on GitHub. If it's your first time linking an existing project with a GitHub repo, I recommend initialising the project without a readme, gitignore or license (so that the version on GitHub is empty) to avoid extra steps.
 3. Navigate to the project folder in the terminal.
 4. The following command initialises the local version of your project as a GitHub repository:
   ```
