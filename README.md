@@ -4,7 +4,7 @@
 
 ----
 
-## Please let me know if anything is still confusing, or if this sequence of events isn't the most helpful.
+## Please let me know if anything is still confusing, or if parts don't work as intended.
 
 ![This is me and you.](https://media.giphy.com/media/kswZdQQQV7pAc/giphy.gif)
 
