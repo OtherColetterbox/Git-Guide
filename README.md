@@ -76,10 +76,10 @@
 ----
 
 ### Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub
-#### Sometimes you'll want to create the project in IntelliJ and set up Maven etc. instead of starting from something that's cloned from GitHub.
+#### Sometimes you'll want to create the project in IntelliJ and set up Maven etc. instead of starting from something that's cloned from GitHub. This also applies to situations where you've started on a project and only decide to push it to GitHub later (no judgement, I promise).
 
 1. Create a project in IntelliJ; set up Maven, etc.
-2. Create the repo on GitHub. If it's your first time doing this, I recommend initialising the project without a readme or license (so that the version on GitHub is empty) to avoid extra steps.
+2. Create the repo on GitHub. If it's your first time doing this, I recommend initialising the project without a readme, gitignore or license (so that the version on GitHub is empty) to avoid extra steps.
 3. Navigate to the project folder in the terminal.
 4. The following command initialises the local version of your project as a GitHub repository:
   ```
@@ -89,7 +89,7 @@
   ```
   git remote add origin [link to remote repo]
   ```
-If you set up an empty GitHub repo, you're now ready to push changes as normal! If the GitHub repo has files that you need to pull (README.md, a license etc.), you'll need to do a little more.
+If you set up an empty GitHub repo, you're now ready to add/commit/push changes as normal! If the GitHub repo has files that you need to pull (README.md, .gitignore, LICENSE.md etc.), you'll need to do a little more.
 6. Set your local master branch to track its remote counterpart.
   ```
   git branch --set-upstream-to=origin/master master
