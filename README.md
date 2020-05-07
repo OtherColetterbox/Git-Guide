@@ -11,9 +11,10 @@
 ----
 
 ### Contents
-#### [Section 1: A brief walkthrough of a sequence of events](#section-1-a-brief-walkthrough-of-a-sequence-of-events)
-#### [Section 2: Help! :'( (And FAQ)](#section-2-help--and-faq-1)
-#### [Section 3: Common problems people have encountered on this project so far](#section-3-common-problems-people-have-encountered-on-this-project-so-far-1)
+#### [Section 1: Cloning and pushing to an existing repo](#section-1-a-brief-walkthrough-of-a-sequence-of-events)
+#### [Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub](#section-2-creating-a-project-in-intellij-or-other-and-pushing-it-to-github)
+#### [Section 3: Help! :'( (And FAQ)](#section-3-help--and-faq-1)
+#### [Section 4: Common problems people have encountered on this project so far](#section-4-common-problems-people-have-encountered-on-this-project-so-far-1)
 
 ----
 
@@ -74,7 +75,24 @@
 
 ----
 
-### Section 2: Help! :'( (And FAQ)
+### Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub
+#### Sometimes you'll want to create the project in IntelliJ and set up Maven etc. instead of starting from something that's cloned from GitHub.
+
+1. Create a project in IntelliJ; set up Maven, etc.
+2. Create the repo on GitHub. If it's your first time doing this, I recommend initialising the project without a readme or license (so that the version on GitHub is empty) to avoid extra steps.
+3. Navigate to the project folder in the terminal.
+4. The following command initialises the local version of your project as a GitHub repository:
+  ```
+  git init
+  ```
+5. Now you need to link your local repository to the remote repository. Find the link to the GitHub repo; it's the same link as if you were cloning it. The following command will set your local repo up to push to your GitHub repo:
+  ```
+  git remote add origin [link to remote repo]
+  ```
+
+----
+
+### Section 3: Help! :'( (And FAQ)
 
 * "It's saying I've changed files that I haven't."
   * Try "git diff" to see the changes. That will shed some light on whether it's just your linter (if you have one), or if maybe you didn't merge some changes that you thought you did, etc.
@@ -87,7 +105,7 @@
   ```
 * "Why does it keep saying I've changed RabbitProject.iml?"
   * I don't know.
-  
+
   (Okay, fine, see below.)
 * "Why can't I see the branches I expect to see?"
   * You may be looking at local branches specifically. This is the command to also see remote branches:
@@ -120,7 +138,7 @@
 
 ----
 
-### Section 3: Common problems people have encountered on the projects so far
+### Section 4: Common problems people have encountered on the projects so far
 #### This is kind of like the above section, but more specific to our experiences...
 
 * Sometimes it's really easy to miss that the command line is telling you that it has run into a problem. The text will be calm and white, but it will (for example) be telling you that the merge you just attempted actually failed, so when you next start the process of adding and committing, it will tell you that a whole bunch of files have changed, and you won't know why. Or you'll end up in a situation where you'll be very convinced that you have the latest version of the project, when you actually don't. That's why we have to be super careful about reading what the terminal says! :)
