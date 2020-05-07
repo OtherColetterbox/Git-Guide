@@ -89,6 +89,23 @@
   ```
   git remote add origin [link to remote repo]
   ```
+If you set up an empty GitHub repo, you're now ready to push changes as normal! If the GitHub repo has files that you need to pull (README.md, a license etc.), you'll need to do a little more.
+6. Set your local master branch to track its remote counterpart.
+  ```
+  git branch --set-upstream-to=origin/master master
+  ```
+7. Typing "git pull" on its own may cause it to say "fatal: refusing to merge unrelated histories." If it does, type the following:
+  ```
+  git pull origin master --allow-unrelated-histories
+  ```
+The default commit message to merge the changes is fine. Use the arrows to get to the bottom of the window; type the following and press enter:
+  ```
+  :wq
+  ```
+8. You can now push your changes.
+  ```
+  git push origin master
+  ```
 
 ----
 
