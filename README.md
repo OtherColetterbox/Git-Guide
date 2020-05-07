@@ -12,13 +12,13 @@
 
 ### Contents
 #### [Section 1: Cloning and pushing to an existing repo](#section-1-a-brief-walkthrough-of-a-sequence-of-events)
-#### [Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub](#section-2-creating-a-project-in-intellij-or-other-and-pushing-it-to-github)
+#### [Section 2: Creating a project in IntelliJ (or other) and pushing it to GitHub](#section-2-creating-a-project-in-intellij-or-other-and-pushing-it-to-github-1)
 #### [Section 3: Help! :'( (And FAQ)](#section-3-help--and-faq-1)
 #### [Section 4: Common problems people have encountered on this project so far](#section-4-common-problems-people-have-encountered-on-this-project-so-far-1)
 
 ----
 
-### Section 1: A brief walkthrough of a sequence of events
+### Section 1: Cloning and pushing to an existing repo
 #### From cloning the repo to pushing changes...
 
 1. Open Command Prompt.
