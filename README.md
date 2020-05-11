@@ -92,6 +92,7 @@ Note: Use "git pull" on the master branch. A common problem that people have run
   git remote add origin [link to remote repo]
   ```
 If you set up an empty GitHub repo, you're now ready to add/commit/push changes as normal! If the GitHub repo has files that you need to pull (README.md, .gitignore, LICENSE.md etc.), you'll need to do a little more.
+
 6. Set your local master branch to track its remote counterpart.
   ```
   git branch --set-upstream-to=origin/master master
