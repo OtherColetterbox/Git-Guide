@@ -35,7 +35,7 @@
   ```
   git branch
   ```
-&nbsp;&nbsp;&nbsp;&nbsp;Or if you want to see all branches, including remote:
+Or if you want to see all branches, including remote:
   ```
   git branch -a
   ```
@@ -43,7 +43,7 @@
   ```
   git checkout [branch name]
   ```
-&nbsp;&nbsp;&nbsp;&nbsp;Or create a new branch and switch to it.
+Or create a new branch and switch to it.
   ```
   git checkout -b [branch name]
   ```
@@ -60,13 +60,14 @@
   ```
   git commit -m "[commit message]"
   ```
-&nbsp;&nbsp;&nbsp;&nbsp;If you forget to add a commit message, you can exit Vim by typing ":wq" at the bottom and pressing enter.
+If you forget to add a commit message, you can exit Vim by typing ":wq" at the bottom and pressing enter.
 
 11. Make sure that your version of the project is up to date (i.e. that no one has pushed any changes between when you last pulled and now) by pulling again.
   ```
   git pull
   ```
-12. Push your changes.
+Note: Use "git pull" on the master branch. A common problem that people have run into during the projects is that they've typed "git pull" on a specific branch, and then when it's asked for more information they've typed "git pull origin \[current branch name\] and only pulled the current branch. You want to pull the whole project.
+12. (Switch back to the relevant branch if you moved to master in the last step.) Push your changes.
   ```
   git push origin [branch name]
   ```
