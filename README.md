@@ -66,7 +66,8 @@ If you forget to add a commit message, you can exit Vim by typing ":wq" at the b
   ```
   git pull
   ```
-Note: Use "git pull" on the master branch. A common problem that people have run into during the projects is that they've typed "git pull" on a specific branch, and then when it's asked for more information they've typed "git pull origin \[current branch name\] and only pulled the current branch. You want to pull the whole project.
+Note: Use "git pull" on the master branch. A common problem that people have run into during the projects is that they've typed "git pull" on a specific branch, and then when it's asked for more information they've typed "git pull origin \[current branch name\]" and only pulled the current branch. You want to pull the whole project.
+
 12. (Switch back to the relevant branch if you moved to master in the last step.) Push your changes.
   ```
   git push origin [branch name]
