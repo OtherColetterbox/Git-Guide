@@ -1,12 +1,10 @@
-# Guide to using Git/GitHub and (hopefully) not breaking anything!*
-## [Link to original version from the rabbit project.](https://github.com/Coletterbox/RabbitProject/blob/master/gitGuide.md)
-## \*I didn't choose this phrasing. You won't break anything! Version control is your friend.
+# Guide to using Git/GitHub
 
 ----
 
-## Please let me know if anything is still confusing, or if parts don't work as intended.
+## I wrote this a couple of years ago - I can go through and remove any irrelevant parts (e.g. references to a specific IDE we don't use) if there's any interest in using it.
 
-![This is me and you.](https://media.giphy.com/media/kswZdQQQV7pAc/giphy.gif)
+![](https://media.giphy.com/media/kswZdQQQV7pAc/giphy.gif)
 
 ----
 
@@ -125,10 +123,6 @@ The default commit message to merge the changes is fine. Use the arrows to get t
   ```
   git diff --staged
   ```
-* "Why does it keep saying I've changed RabbitProject.iml?"
-  * I don't know.
-
-  (Okay, fine, see below.)
 * "Why can't I see the branches I expect to see?"
   * You may be looking at local branches specifically. This is the command to also see remote branches:
   ```
@@ -153,8 +147,6 @@ The default commit message to merge the changes is fine. Use the arrows to get t
   ```
   git pull origin master --allow-unrelated-histories
   ```
-* "Where did \[person\] go?!"
-  * They're probably peeing, but try sending another message in all caps this time.
 
 ![It's okay, friend. <3](https://media.giphy.com/media/gl8ymnpv4Sqha/giphy.gif)
 
