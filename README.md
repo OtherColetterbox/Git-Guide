@@ -2,7 +2,7 @@
 
 ----
 
-## I wrote this a couple of years ago - I can go through and remove any irrelevant parts (e.g. references to a specific IDE we don't use) if there's any interest in using it.
+## I wrote this a couple of years ago - I can go through and remove any irrelevant parts (e.g. references to a specific IDE we don't use, problems that are really specific to another group of people...) if there's any interest in using it.
 
 ![](https://media.giphy.com/media/kswZdQQQV7pAc/giphy.gif)
 
